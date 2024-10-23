@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        form {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le site web de Arimi</h1>
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="accueil">
+            <img src="/IMG-20240922-WA0050.jpg" alt="Ma photo" style="max-width: 100%; height: auto;">
+        </section>
+        <section id="apropos">
+            <h2>À propos de ce site</h2>
+            <p><! HTML et CSS> Arimi abatcha 227.</p>
+            <p>C'est moi, Arimi Abatcha, qui ai créé ce site web.</p>
+        </section>
+        <section id="contact">
+            <h3>Contactez-moi</h3>
+            <form>
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Site Web</p>
+    </footer>
+</body>
+</html>
